@@ -9,7 +9,7 @@ const shareButton = document.querySelector(".share-btn");
 function convertToSlug(Text) {
   return Text.toLowerCase()
     .replace(/[^\w ]+/g, "")
-    .replace(/ +/g, "%2B");
+    .replace(/ +/g, "%20");
 }
 
 guestName.addEventListener("input", (e) => {
