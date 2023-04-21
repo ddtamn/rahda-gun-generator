@@ -9,7 +9,7 @@ const shareButton = document.querySelector(".share-btn");
 function convertToSlug(Text) {
   return Text
     .replace(/[^\w ]+/g, "")
-    .replace(/ +/g, "%20");
+    .replace(/ +/g, "%2B");
 }
 
 guestName.addEventListener("input", (e) => {
