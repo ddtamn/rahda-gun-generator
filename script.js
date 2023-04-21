@@ -7,7 +7,7 @@ const redaksi = document.getElementById("invitation-editor");
 const shareButton = document.querySelector(".share-btn");
 
 function convertToSlug(Text) {
-  return Text.toLowerCase()
+  return Text
     .replace(/[^\w ]+/g, "")
     .replace(/ +/g, "%20");
 }
